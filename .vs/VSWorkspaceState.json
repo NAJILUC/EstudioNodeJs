@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\16 Express",
+    "\\16 Express\\routers",
+    "\\app",
+    "\\app parqueadero",
+    "\\app parqueadero\\controllers",
+    "\\app parqueadero\\models",
+    "\\app parqueadero\\routes",
+    "\\app\\controllers",
+    "\\app\\routes"
+  ],
+  "SelectedNode": "\\app parqueadero\\routes\\parqueaderoSocio.js",
+  "PreviewInSolutionExplorer": false
+}

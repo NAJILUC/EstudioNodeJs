@@ -1,7 +1,7 @@
 const http = require('http');
 const cursos = require('./cursos');
 
-const servidor = http.createServer((req, res) => {
+const servidor = createServer((req, res) => {
     const { method } = req;
 
     if (method === 'GET') {
@@ -55,6 +55,33 @@ function manejarSolicitudPOST(req, res){
     }
 }
 
+//BSHBAJBSHHABBSBAMSNNABMBNMAS
+/*
+const options = {
+    hostname: 'localhost',
+    port: 8080,
+    path: '/api-yaydoo-contracts/v1/contracts/all/parqueados',
+    method: 'GET'
+  };
+  
+  const req = request(options, res => {
+    let data = '';
+  
+    res.on('data', chunk => {   
+      data += chunk;
+    });
+  
+    res.on('end', () => {
+      console.log(data);
+    });
+  });
+  
+  req.on('error', error => {
+    console.error(error);
+  });
+  
+  req.end();
+*/
 const puerto = 3000;
 
 servidor.listen(puerto, () => {
